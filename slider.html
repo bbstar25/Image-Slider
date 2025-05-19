@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Centered Auto-Sliding Image Slider</title>
+  <title>Local Image Slider</title>
   <style>
     * {
       box-sizing: border-box;
@@ -32,7 +32,7 @@
 
     .slides {
       display: flex;
-      width: 300%; /* 3 slides */
+      width: 300%; /* 3 images = 300% */
       height: 100%;
       animation: slide 12s infinite ease-in-out;
     }
@@ -51,7 +51,6 @@
       max-height: 100%;
       object-fit: contain;
       display: block;
-      margin: auto;
     }
 
     @keyframes slide {
@@ -75,13 +74,13 @@
 <div class="slider">
   <div class="slides">
     <div class="slide">
-      <img src="https://via.placeholder.com/700x400/ff6f61/ffffff?text=Image+1" alt="Image 1">
+      <img src="shoe1.jpeg" alt="Image 1">
     </div>
     <div class="slide">
-      <img src="https://via.placeholder.com/700x400/6b5b95/ffffff?text=Image+2" alt="Image 2">
+      <img src="shoe2.jpeg" alt="Image 2">
     </div>
     <div class="slide">
-      <img src="https://via.placeholder.com/700x400/88b04b/ffffff?text=Image+3" alt="Image 3">
+      <img src="shoe3.jpeg" alt="Image 3">
     </div>
   </div>
 </div>
